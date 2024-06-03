@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(210, 60%, 98%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 5px;
+  width: 85%;
+  margin: 0 auto;
+}
+.main {
+  margin-top: 45px;
+  border-radius: 20px;
+
+}
+.Notifications {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+  font-size: 1.5rem;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.num {
+  background-color: hsl(219, 85%, 26%);
+  font-weight: 500;
+  color: white;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.mark-read {
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(219, 12%, 42%);
+  margin-left: 15px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.mark-read:hover {
+  color: hsl(219, 85%, 26%);
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border: 1px;
+  border-radius: 8px;
+  margin: 10px 0;
+  background-color: hsl(212, 76%, 98%);
+  margin-top: 50px;
+  width: 93%;
+  margin: 4%;
+  position: relative;
+  cursor: pointer;
+}
+
+.notification img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+.notification .top-content {
+  display: flex; /* Arrange content horizontally */
+  margin-bottom: 5px; /* Add margin between top content and time */
+}
+.notification .text-content {
+  margin-left: 10px; /* Add space between the avatar and the text content */
+}
+.top-content {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+  margin-right: 5px;
+  cursor: pointer;
+}
+.name:hover{
+  color:hsl(219, 85%, 36%);
+}
+
+.txt {
+  color: hsl(224, 21%, 14%);
+  margin-right: 5px;
+}
+
+.click {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.click:hover {
+  color: hsl(219, 85%, 36%);
+}
+
+.time {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.txt-box {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: hsl(207, 56%, 95%);
+  margin-top: 2%;
+  width: 59%;
+  height: 90%;
+  margin-left: 37%;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+.notification img[alt="chess"] {
+  max-width: 100%; 
+  height: auto; 
+  margin-left: auto;
+  border-radius: 5px; 
+  
+}
+.notification img[alt="chess"] {
+  margin-right: 10%;
+
+}
+.dot {
+  display: inline-block;
+  width: 6px; /* Size of the dot */
+  height: 6px; /* Size of the dot */
+  background-color: red; /* Color of the dot */
+  border-radius: 50%; /* Makes the dot round */
+  margin-left: 5px; /* Space between the text and the dot */
+  vertical-align: middle; /* Aligns the dot vertically with the text */
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 85%; 
+  }
+}
